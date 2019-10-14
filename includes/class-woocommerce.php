@@ -337,6 +337,11 @@ final class WooCommerce {
 		include_once WC_ABSPATH . 'includes/interfaces/class-wc-queue-interface.php';
 
 		/**
+		 * Core traits.
+		 */
+		include_once WC_ABSPATH . 'includes/traits/trait-wc-item-totals.php';
+
+		/**
 		 * Abstract classes.
 		 */
 		include_once WC_ABSPATH . 'includes/abstracts/abstract-wc-data.php';
